@@ -1,0 +1,266 @@
+
+====================================================
+
+
+When you are working with a multisite implementation, what is the recommended practice for creating each site’s tree structure?
+	Use the default Sites folder to store each site folder, and create a Home item for each site within the folder.
+		Create a specific site definition configuration, a folder for each site under the Content item, and a Home item for each site within the folder.
+	Create the content for each site anywhere within the content tree and have it sorted by the <sites> section of Sitecore.config.
+	Put all website content under the default Home item, prefixing the content with the name for each website.
+
+Which two of the following statements are reasons for assigning security rights to roles instead of individual users?
+	It is more secure to manage access rights for individual users.
+	Roles do not allow the ability to assign access restrictions to content created by other users.
+		Assigning permissions to individual users can be confusing and create risk.
+		Roles enable you to control security access for groups of users and roles simultaneously.
+	User-level rights allow you to change security rights without altering an entire site.
+
+When is template inheritance not recommended for fields with the same name?
+	When the fields need to be validated
+	When the fields require the same field sources
+	When the fields are image field types
+		When the fields require different field sources 
+
+Sitecore recommends defining an item's presentation details as part of the standard values child item of a data template. Why is it important to define presentation details in the standard values item?
+	Defining the presentation details on the standard values is necessary for documentation and nothing more.
+		Items created from a template inherit the standard values, including presentation details, and NULL fields default to the template standard values.
+	This will force Sitecore to prompt content creators to set the specific presentation details for each item they make upon creation.
+	Without the presentation details being defined on the standard values of the template, content creators cannot create items from the template.
+
+The component you just completed is statically bound to a page. What is one implication of static binding components like this?
+		Authors cannot select the component in the Experience Editor in designing mode.
+	The component will not render when an Author views it in the Experience Editor.
+	Authors cannot select the component in the Content Editor in designing mode.
+	The component will not render when the site is deployed and can be viewed live.
+
+What is the default scope for a serialization include if the scope parameter is not defined?
+	DescendantsOnly
+	SingleItem
+		ItemAndDescendants
+	ItemAndChildren
+
+What is the purpose of a .env file when deploying Sitecore to containers?
+	The .env file is used to build the appropriate Docker containers when the command docker-compose up is run.
+		The .env file allows you to declare environment variables for your Docker containers.
+	The .env file contains the back-up settings needed to deploy the same environment on a new workstation.
+	The .env file is loaded as a volume to your containers to ensure the deployment of a consistent environment.
+
+What is the purpose of the Sitecore Core database?
+		To store settings and content for the Sitecore application itself.
+	To store all draft and published versions of content for the website or websites.
+	To serve as a backup of all users and passwords for the Sitecore editing tools.
+	To store only the published content for the entire Sitecore environment.
+	
+With what are you synchronizing the Master database when using Sitecore's Publish command?
+	Items included in a selected workflow
+		One or more identified publishing targets
+	The Core database and Serialization source control
+	The Web and Core databases	
+	
+You've been assigned the development task of setting the insert options for items in the content tree. According to Sitecore best practices, where should you establish insert options for items?
+	Insert options are established in the item definition settings under the Configuration node of the content tree.
+	Insert options are established as needed when new content item groups are created in the content tree.
+	Insert options are established on the standard values of an item template.
+	Insert options are established on the root item of the content tree and are inherited by new items added underneath the root.	
+	
+Which statement describes the difference between layouts and components?
+	A layout and a component do not have any functionality difference, and users can use either term interchangeably.
+		The layout provides the base structure for a given delivery channel, while components are smaller structure items added to the presentation details.
+	A layout is an item that is created from a template, while a component is an item that is not created from a template.
+	A layout is a markup for smaller parts of the page, while a component is the general structure that uses layouts to create parts of a page.	
+	
+What is the primary function of the Layout Service?
+	To provide the HTML, CSS, and JavaScript formatting necessary to render component data in a browser
+	To render the components assigned to a given layout from the Content Delivery instance
+		To provide structured data about Sitecore-based pages including components and their associated content
+	To combine the content data with the formatting data provided by the rendering host when a HTTP call is made	
+	
+When using Sitecore Content Serialization, what is the sitecore.json file in your development solution?
+	The solution integration file needed for deploying code changes to the environment
+	The environment variables file for your Sitecore Docker deployment
+		The configuration file for global development plugins and module locations
+	An alternative configuration file for headless environments instead of web.config
+	
+What will happen if you do not add the hostnames of your Sitecore environment to your Windows hosts file?
+	Running the docker-compose up command will fail and the container environment will be unhealthy. 
+	You will not be able to develop the environment using Sitecore MVC and must use headless methods, like JSS.
+	Nothing, this is an optional step in setting up your environment and is mainly used for record-keeping purposes.
+		You will not be able to access the Sitecore environment via the IP address in a browser	
+	
+	
+============================================================================================================================================
+
+Guide: Sitecore 10 .NET Developer Competencies and Resources
+
+
+Competency 1: Sitecore structure & platform
+–
+A Sitecore .NET Developer must be able to describe the basic structure of the Sitecore Experience Platform (XP) product, define specific Sitecore terminology when used in context of Sitecore XP, and prepare their workspace for development tasks.
+
+
+
+To meet this competency, you need to be able to do the following:
+
+Define Sitecore-specific terminology in a Developer context. Terms include Content Editor, Experience Editor, component, rendering, placeholder, template, layout, item, and serialization.
+Differentiate between Sitecore MVC and Sitecore Headless Development methods, tools, and processes at a high level.  
+Identify the different deployment options for a Sitecore Experience Platform environment (e.g., on-premise, containers, Managed Cloud).  
+Install Sitecore Experience Platform on a development workstation without the use of containers.
+Create a .NET solution with the appropriate projects for your development method. 
+Execute development tasks assigned from a development plan for a Sitecore environment.
+Additional resources: 
+
+Content Editor
+
+Experience Editor
+
+Sitecore XP Downloads
+
+
+Competency 2: Security & user management
+–
+A Sitecore .NET Developer must be able to configure the environment and user security settings, create and manage users and roles, and develop workflows within Sitecore.
+
+
+
+To meet this competency, you need to be able to do the following:
+
+Create users and roles within the Sitecore platform.
+Configure the security roles to meet the needs of the business and use cases of the environment.
+Configure item security properly for existing and future items.
+Manage permissions for items, roles, and users.
+Identify when security rights are conflicting and resolve the conflict.
+Use role inheritance to simplify role creation and management.
+Use the Sitecore publishing features to publish items and sites to the appropriate databases.
+Configure item workflows for Content Authors, Editors, and Publishers.
+Additional resources:
+
+Security
+
+Securing the Experience Manager
+
+Workflows
+
+
+Competency 3: Item management
+–
+A Sitecore .NET Developer must be able to create and manipulate items within the Sitecore XP environment using both Content Editor and Experience Editor. 
+
+
+
+To meet this competency, you need to be able to do the following:
+
+Define Sitecore-specific terminology in a Developer context. Terms include standard values, insert options, item GUIDs, fields, field types, source values, inheritance, component definition items, layout definition items, placeholder settings items, and package.
+Add items in multiple areas within the content tree, such as templates, component definition items, layout definition items, and placeholder settings items.
+Create templates and standard values and set insert options to match the data structures outlined in a development plan.
+Recognize the differences between the standard Sitecore databases used, such as Web and Master.
+Locate where search indexes are managed.
+Use Sitecore packages to transfer Sitecore items and environment changes to another Sitecore environment. 
+Install a Sitecore package.
+Additional resources:
+
+Data Templates
+
+Managing Items
+
+Competency 4: Layouts & placeholders
+–
+A Sitecore .NET Developer must be able to create a layout and placeholders in the Sitecore environment with corresponding items within their development project. 
+
+
+
+To meet this competency, you need to be able to do the following:
+
+Create layout definitions items within Sitecore and set the presentation details for a layout. 
+Create a corresponding layout file within your ASP.NET project. 
+Explain the difference between a static and dynamic placeholder and give the purpose of each.
+Set presentation details on a template item. 
+Create a placeholder settings item.
+Set Allowed controls on a placeholder settings item.
+Define a placeholder on a layout, both dynamically and statically.
+Additional resources: 
+
+Sitecore Layouts
+
+Versioned Layouts
+
+Dynamic Placeholders
+
+
+Competency 5: Components, controls, & renderings
+–
+A Sitecore .NET Developer must be able to create and manage components using either Sitecore MVC or the Sitecore ASP.NET Core Rendering SDK. 
+
+
+
+To meet this competency, you need to be able to do the following:
+
+General:
+
+Differentiate between the different rendering definition items in Sitecore, such as view, controller, and JSON rendering items.
+Set the compatible renderings on a rendering definition item.
+Control component usage by configuring the Datasource Location and Datasource Template fields. 
+Set up additional control properties and component parameters. 
+Use caching controls on a rendering item to improve environment performance.
+Build components that utilize the Rendering Contents Resolver to access additional information from the Sitecore platform, such as content tree structure and system- based templates.
+Sitecore MVC:
+Create view and controller renderings.
+Differentiate between static component binding and dynamic component binding with placeholders.
+Explain the purpose of Sitecore MVC field helpers.
+Render Sitecore fields as editable in Experience Editor by using Sitecore MVC field helpers. 
+Sitecore ASP.NET Core Rendering SDK:
+Create and register model-bound view components, custom view components, and partial view components.
+Explain the purpose of Sitecore tag helpers.
+Rendering Sitecore fields as editable in Experience Editor by using Sitecore tag helpers in component views.
+Additional resources:
+
+Sitecore MVC
+Sitecore Headless Development
+
+Competency 6: Sitecore Content Serialization
+–
+A Sitecore .NET Developer must be able to use Sitecore Content Serialization (SCS) to manage content and item changes among a team of Developers.
+
+
+
+To meet this competency, you need to be able to do the following:
+
+Locate and connect to the source control location for your development project.  
+Install the Sitecore Command Line Interface (CLI).
+Log in to Sitecore from the CLI.
+Configure a Serialization module with included paths and rules.
+Execute the CLI commands to push and pull content item from Sitecore. 
+Use serialization packages for continuous integration.
+Install Sitecore for Visual Studio (VS).
+Use Sitecore for VS to push and pull content items from Sitecore.
+Additional resources: 
+
+Sitecore Content Serialization
+
+Sitecore Command Line Interface
+
+Sitecore for Visual Studio
+
+
+Competency 7: Containers
+–
+A Sitecore .NET Developer must be able to understand the purpose of the Sitecore Container Repository (SCR), deploy a Sitecore environment to a set of Docker containers, and develop within a containerized Sitecore installation.
+
+
+
+To meet this competency, you need to be able to do the following:
+
+Prepare the files necessary to deploy Sitecore XP to containers.  
+Launch a Sitecore environment with docker-compose. 
+Set up a Sitecore solution with your own Docker images based on Sitecore provided images.
+Develop and debug within a Sitecore environment running on containers.
+Additional resources: 
+
+Container Development
+
+Sitecore Support for Containers
+
+
+
+
+
+

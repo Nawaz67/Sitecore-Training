@@ -1,0 +1,93 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Hexa Blog Backup 31 Mar 2020</PackageName>
+      <Author>SK</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/content/Home/blog/{0AD12495-BE9B-46FE-95A2-D7F3DCEEB8FB}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/blog/Article1/{D7F627C4-BA0D-4148-B5BA-89AC404B74A1}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/blog/Article3/{24B6CE4D-DCFD-4E8B-B353-6EACA5EAC438}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/blog/Article4/{809C2CB3-95ED-45AF-9D94-42D2B44A8583}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/blog/ArticleValidation/{63C8DE94-1E47-4E91-B170-374728F07707}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/blog/Corona/{2359F849-C8C1-4D13-8941-B035A366B669}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/blog/Covid19/{8C22F8DF-0201-4FE8-BF75-57F049885929}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/blog/Demo For Publishing/{3598E5DD-C3FB-44BA-BBBE-D432FB493C2A}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/blog/Demo for scheduled publishing/{B066C1FF-9981-4EA1-B4DE-438652CC055E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/blog/Layoutdemo/{A8DC192B-AD78-4CF6-8F28-8414CE491B21}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/blog/Modi/{50EA0C8A-5AEC-4CAA-933C-444E142A8CFF}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/blog/ThankYou/{B6D71097-000F-450F-902F-9B69F6062B44}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/blog/TrumpVisit/{45044D4B-FCD3-436C-A22F-229CA60A7499}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/blog/UnpublishDemo/{20D07792-571E-432E-9B2B-24E160ACE76F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/blog/Wuhanvirus/{4601DEF2-9694-4FA5-82F7-A3278A9EB03D}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Hexa/{EC5ACA60-5E0D-49C5-8365-48A0E8B04C89}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Hexa/BlogLayout/{DD615DC3-FA4E-4824-A75B-07CAB5BC1E37}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Hexa/{F3FCCEB3-8688-4652-9896-3E26D926AFEC}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Hexa/BlogBody/{016A5851-BF24-4D2E-9451-ED3F8779A26E}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Hexa/Footer/{EC404151-431E-4036-AF06-A6F4012F879C}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Hexa/Header/{F79FA0C5-D31F-4FC8-BE2A-EE11AA73B185}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Hexa/{D05B2A46-BEC8-4499-93A6-1FF5DFE6E3C1}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Hexa/CitiBank FeviIcon/{40EC1795-8C2D-4D31-809B-6375D5E3F4E5}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Hexa/kinetex-document/{96425AD7-CED8-413F-B8F5-13C671072B9C}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Hexa/SeaAndMe/{4E553249-1509-4675-8916-F4A35EA0CCE6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Hexa/{2241DB16-2E73-4BDD-98D3-E97C6E93C57C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Hexa/Article/__Standard Values/{4F9EF124-DE20-45B7-9CF1-DA585C97BEE7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Hexa/Article/{0A347D42-7327-427B-B9B2-2ACCCB21863F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Hexa/Article/Article Section/{468869FC-64AE-47E9-9739-4BFD67FACEE7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Hexa/Article/Article Section/Author/{78F4A7F6-878F-44FF-AE47-DE19B3EE0408}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Hexa/Article/Article Section/BlogId/{7E4B8A87-C1A0-44A5-B368-CCAD154F07EA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Hexa/Article/Article Section/BlogImage/{0982D18B-2BA8-4FCD-B078-C36F790B161C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Hexa/Article/Article Section/Description/{6DE70153-7F11-47CD-A089-41E44F5EBF4E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Hexa/Article/Article Section/PostedDate/{F41355B9-C2D3-4AC5-B1F8-F5092130B4CC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Hexa/Article/Article Section/Title/{E4460608-E2A9-49F7-BF71-24783749665B}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>SItecore items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/Views/Hexa/BlogBody.cshtml</x-item>
+        <x-item>/Views/Hexa/BlogLayout.cshtml</x-item>
+        <x-item>/Views/Hexa/Footer.cshtml</x-item>
+        <x-item>/Views/Hexa/Header.cshtml</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Blog Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
